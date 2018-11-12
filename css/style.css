@@ -1,0 +1,204 @@
+body{
+	color: #fff;
+	background: pink;
+	
+}
+a {
+	text-decoration: none;
+}
+/* ----- MAIN HEADER -----*/
+.main-header {
+	padding:0;
+	background: pink;
+	text-align; center;
+	list-style: none;
+	display: grid;
+	grid-gap: 5px;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	font-family: Palatino Linotype;
+}
+.button {
+	background: white;
+	color: black;
+	padding: 10px 135px;
+	
+}
+
+.button:hover {
+	background: #3399FF;
+	color: white;
+}
+
+/* ----- SHOWCASE -----*/
+
+.showcase {
+	margin-bottom: 20px;
+	padding:250px;
+	background-image: url(../images/cute.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	box-shadow: 0 0 5px #9f8260;
+	background-position: center;
+
+}
+.showcase:hover {
+	background-image: url(../images/palms.jpg);
+}
+/* ----- MAIN ARTICLE -----*/
+.main-article {
+	display: grid;
+	grid-gap: 5px;
+	grid-template-columns: 1fr 1fr;
+	padding: 0;
+	margin-bottom: 0;
+	font-family: Arial;
+	background: pink;
+	
+}
+#image {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+}
+#button {
+	background-color: #fdb2b2;
+	color: #000000;
+	padding: 5px 5px;
+	font-family: ravie;
+	font-size: 20px;
+	margin: 50px;
+	box-shadow: 0 0 1000px Lime;
+}
+
+#button:hover {
+	background: #90dcea;
+}
+.Bohol {
+	font-family: Felix Titling;
+	text-align: center;
+}
+.Palawan {
+	font-family: Felix Titling;
+	text-align: center;
+}
+.article-left {
+	margin: 0;
+	padding: 0;
+	border: 2px grey solid;
+	background: white;
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: 1fr 1fr;
+}
+.inside-left-first {
+	padding: 0;
+	background: white;
+
+}
+.inside-left-first:hover {
+	background-image: url(../images/ocean.jpg);
+}
+.inside-left-second {
+	padding: 0;
+	background: white;
+	color: black;
+	
+}
+.article-right {
+	padding: 0;
+	border: 2px grey solid;
+	background: white;
+	display: grid;
+	grid-gap: 0;
+	grid-template-columns: 1fr 1fr;
+}
+.inside-right-first {
+	padding: 0;
+	background: white;
+
+}
+.inside-right-first:hover {
+	background-image: url(../images/ocean.jpg);
+}
+.inside-right-second {
+	padding: 0;
+	background: white;
+	color: black;
+
+}
+
+.second-article {
+	display: grid;
+	grid-gap: 5px;
+	grid-template-columns: 1fr 1fr;
+	padding: 0;
+	margin-bottom: 0;
+	font-family: Arial;
+	background: pink;
+}
+.Camiguin {
+	font-family: Felix Titling;
+	text-align: center;
+}
+.CDO {
+	font-family: Felix Titling;
+	text-align: center;
+}
+.second-article-left {
+	margin: 0;
+	padding: 0;
+	border: 2px grey solid;
+	background: white;
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: 1fr 1fr;
+}
+.inside-second-article-left-first {
+	padding: 0;
+	background: white;
+}
+.inside-second-article-left-first:hover {
+	background-image: url(../images/ocean.jpg);
+}
+.inside-second-article-left-second {
+	padding: 0;
+	background: white;
+	color: black;
+}
+.second-article-right{
+	padding: 0;
+	border: 2px grey solid;
+	background: white;
+	display: grid;
+	grid-gap: 0;
+	grid-template-columns: 1fr 1fr;
+}
+.inside-second-article-right-first{
+	padding: 0;
+	background: white;
+}
+.inside-second-article-right-first:hover {
+	background-image: url(../images/ocean.jpg);
+}
+
+.inside-second-article-right-second {
+	padding: 0;
+	background: white;
+	color: black;
+}
+
+
+/* ----- FOOTER ----- */
+.footer {
+	text-align: center;
+	background: pink;
+	border: 2px grey solid;
+	font-family: Palatino Linotype;
+	box-shadow: 0 0 10px #e2abab;
+	margin-top: 10px;
+	font-size: 15px;
+}
+.footer:hover {
+	background: #90dcea;
+}
+
